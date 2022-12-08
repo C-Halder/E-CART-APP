@@ -1,0 +1,21 @@
+=================== Welcome to the E-CART Project, a unique site developed by Chandan, Susovon and Vishal. =========================
+
+
+
+**************  PREFACE  ************
+
+1. The main thing, which has been kept in mind   during this e-commerce based Web development, is our best efforts to make it easy, attractive & user friendly.
+
+2. This site is developed with one simple goal in mind: grab a visitor’s attention and hold it. Why? Because that is, quite simply, how success is achieved on the Internet.
+
+3. Case studies have shown that the average web surfer will leave a website within 8 seconds if they fail to understand the purpose or can’t easily digest the message at a glance. That means a website must inform and dazzle instantly and simultaneously if it is to have any chance of competing online.
+
+4. My goal as a professional React Developer is to create a one-of-a-kind website that will not only knock the socks off competition, but also keep visitors coming back for more.
+
+**************  ACKNOWLEDGEMENT  ************
+
+## A small web-site as this one has required help from many quarters. We realized this when we ventured into the area of Full Stack Development.From the beginning everyone co-operated, supported us, especially our instructor Mr. Raju Kayal, for which we express our sincere acknowledgement.
+
+## Training  is  the first  step in  the practical field from  where one learns  how to apply  theory  principles  for  this  the   practical  purposes.To develop a successful website,one needs understanding and co-ordination  from  all those who are  directly and  indirectly involved in this.
+
+## Last but not the least, We hereby, like to show our deep gratitude towards our instructor and project in charge Mr. Raju Kayal and Webskitters for providing the opportunity.
