@@ -26,7 +26,7 @@ export const userSignup = createAsyncThunk("user/signup", async (formData)=>{
 const AuthSlice = createSlice({
     name:"authentication",
     initialState:{
-        user: null,
+        user: [],
         error: "",
         msg:"",
         token: false
@@ -34,7 +34,7 @@ const AuthSlice = createSlice({
     reducers:{
         setLogout(state){
             state.token = false
-            state.user =null
+            state.user =[]
         }
     },
     extraReducers: (builder)=>{

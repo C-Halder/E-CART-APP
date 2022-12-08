@@ -1,15 +1,24 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { setLogout } from '../../services/slices/AuthSlice'
+import { emptyCart } from '../../services/slices/CartSlice'
 import { searchProducts } from '../../services/slices/ProductsSlice'
 
 const Navbar = () => {
     const { cart_data } = useSelector(state => state.cart)
     const { user, token } = useSelector(state => state.auth)
     // const { product_query } = useSelector(state => state.productSlice)
+    const navigate = useNavigate()
     const dispatch = useDispatch()
     const len = cart_data.length
+
+    const logOut = ()=>{
+        alert("Log Out Successfull !!")
+        dispatch(emptyCart())
+        dispatch(setLogout())
+        navigate("/")
+    }
     
 
     return (
@@ -96,7 +105,11 @@ const Navbar = () => {
                                         {token ?
                                         <li className="dropdown"><Link>My Account<i className="fa fa-angle-down"></i></Link>
                                             <ul role="menu" className="sub-menu">
-                                                <li><Link onClick={()=>dispatch(setLogout())}>Log Out</Link></li>
+                                                <li><button style={{background:"none", color:"white", border:"none", fontSize:"18px"}}
+                                                        onClick={logOut}
+                                                    >Log Out
+                                                    </button>
+                                                </li>
                                             </ul>
                                         </li>
                                         : null}
